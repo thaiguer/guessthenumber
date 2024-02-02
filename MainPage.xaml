@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuessTheNumber.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30"
+            Spacing="25">
+
+            <HorizontalStackLayout HorizontalOptions="End">
+                <Button
+                    x:Name="BtnNewGameLittle"
+                    Clicked="BtnNewGameLittle_Clicked"
+                    Text="New Game"
+                    />
+
+            </HorizontalStackLayout>
+            
+            <Label
+                x:Name="LblHeadLine"
+                Style="{StaticResource Headline}"
+                />
+        
+            <Button
+                 x:Name="BtnNewGame"
+                 Clicked="BtnNewGame_Clicked"
+                 Text="New Game"
+                 HorizontalOptions="Center"
+                 />
+
+            <Entry
+                x:Name="EntryNumberGuess"
+                IsSpellCheckEnabled="False"
+                Placeholder="type your guess here"
+                HorizontalOptions="Center"
+                Keyboard="Numeric"
+                MaxLength="10" 
+                />
+
+            <Label
+                x:Name="LblSubHeadLine"
+                HorizontalOptions="Center"
+                />
+
+            <Button
+                x:Name="BtnCheckGuess"
+                Text="Check Guess"
+                Clicked="BtnCheckGuess_Clicked"
+                HorizontalOptions="Center"
+                />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
