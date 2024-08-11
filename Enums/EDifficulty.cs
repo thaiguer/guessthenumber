@@ -9,8 +9,8 @@ namespace GuessTheNumber.Enums
     enum EDifficulty
     {
         Easy,
-        Normal
-        //Hard,
-        //Ultra
+        Normal,
+        Hard,
+        Ultra
     }
 }

@@ -43,10 +43,10 @@ namespace GuessTheNumber.GameRules
                     return minimun;
                 case EDifficulty.Normal:
                     return 50;
-                //case EDifficulty.Hard:
-                //    return 100;
-                //case EDifficulty.Ultra:
-                //    return 500;
+                case EDifficulty.Hard:
+                    return 100;
+                case EDifficulty.Ultra:
+                    return 500;
                 default:
                     return minimun;
             }
@@ -62,10 +62,10 @@ namespace GuessTheNumber.GameRules
                     return minimun;
                 case EDifficulty.Normal:
                     return 5;
-                //case EDifficulty.Hard:
-                //    return 10;
-                //case EDifficulty.Ultra:
-                //    return 10;
+                case EDifficulty.Hard:
+                    return 10;
+                case EDifficulty.Ultra:
+                    return 10;
                 default:
                     return minimun;
             }

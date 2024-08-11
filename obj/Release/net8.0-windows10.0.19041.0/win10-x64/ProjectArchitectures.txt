@@ -1,1 +1,1 @@
-D:\dev\Guess\GuessTheNumber\GuessTheNumber.csproj;x64
+C:\dev\guessthenumber\GuessTheNumber.csproj;x64
